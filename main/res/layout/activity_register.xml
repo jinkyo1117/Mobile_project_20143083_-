@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="@drawable/sky">
+
+
+    <TextView
+        android:id="@+id/RegisterMainTextView"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:gravity="center_horizontal"
+        android:text="회원가입 화면"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/IDText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PWText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PW (특수문자 사용불가)"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="전화번호"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/AddressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="주소"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="개인정보 동의 약관"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/aggreeButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="동의 함" />
+
+        <RadioButton
+            android:id="@+id/disagreeButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="동의 안 함" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/RegisterButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#7A03A9F4"
+        android:layout_marginBottom="7dp"
+        android:textSize="30dp"
+        android:text="회원가입" />
+
+    <Button
+        android:id="@+id/RegisterExitButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textColor="#000000"
+        android:background="#7A03A9F4"
+        android:layout_marginBottom="0dp"
+        android:textSize="30dp"
+        android:text="종료" />
+
+</LinearLayout>
