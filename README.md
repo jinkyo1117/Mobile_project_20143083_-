@@ -5,9 +5,11 @@ HW1
 20143083 윤진교
 
 XML파일 경로 : app - src - main - res - layout
+
 java파일 경로 : app - src - main - com - example - mobile_project_1
 
 AVD : Nexus 5X API 29
+
 SDK Platforms : Android 10.0
 
 1. 로그인 화면(RelativeLayout)
