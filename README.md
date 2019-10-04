@@ -7,6 +7,9 @@ HW1
 XML파일 경로 : app - src - main - res - layout
 java파일 경로 : app - src - main - com - example - mobile_project_1
 
+AVD : Nexus 5X API 29
+SDK Platforms : Android 10.0
+
 1. 로그인 화면(RelativeLayout)
 -상단에 TextView로 앱 이름 ‘JinKyo’s APP’ 출력합니다.
 - EditText로 ID와 패스워드를 입력 받습니다. 로그인 버튼을 누르면, ID 입력 값은 스트링으로 변환한 뒤 getFilesDir를 사용해 기존에 저장되어 있는 파일에 접근하고, 입력 받은 ID와 같은 파일이름이 존재하면 파일을 열고, 존재하지 않으면 ‘비밀번호가 맞지 않습니다’라는 Toast를 띄워 로그인을 막습니다. 
